@@ -1,0 +1,12 @@
+[project]
+name = "jupyter_r_workspace"
+version = "1.0.0"
+description = "A base workspace for running R in Jupyter Notebooks"
+authors = [
+    {name = "Michael Bending",email = "michael.a.bending@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+   "jupyter (>=1.1.1,<2.0.0)"
+]
